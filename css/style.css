@@ -5,8 +5,17 @@
  *
  * Made By MaterializeCSS.com
  */
+body {
+    background-color: #fafafa;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.section-scrollspy {
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
 }
 
 nav ul a,
@@ -28,9 +37,22 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
+}
+
+h2 {
+    color: #4C8497;
+}
+
+.send {
+    background-color: #4C8497;
+}
+
+#solarcan {
+    max-height: 150px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -57,4 +79,9 @@ p {
 
 footer.page-footer {
   margin: 0;
+  background-color: #4C8497;
+}
+
+.footer-copyright {
+    background-color: #325864;
 }
