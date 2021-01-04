@@ -1,87 +1,134 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 body {
-    background-color: #fafafa;
+	background-color: #fafafa;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
+h2 {
+	color: #ba8c51;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+p {
+	line-height: 2rem;
+	text-align: justify;
+}
+
+/*-----------------------------------------NAVBAR*/
+
 .section-scrollspy {
-    padding-top: 3rem;
-    padding-bottom: 3rem; 
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
+	color: #444;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+	color: #4C8497;
 }
 
+/*-----------------------------------------END NAVBAR*/
+
+/*-----------------------------------------IMAGES*/
+
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
 }
 
 .parallax-container .section {
-    width: 100%;
+	width: 100%;
 }
 
-h2 {
-    color: #ba8c51;
+#failed-photograph {
+	max-width: 100%;
 }
 
-.send {
-    background-color: #4C8497;
-    margin-bottom: 1rem;
-}
+/*-----------------------------------------END IMAGES*/
 
-.carousel .carousel-item {
-width:300px !important;}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
+/*-----------------------------------------ICONS*/
 
 .icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
+	padding: 0 15px;
 }
 
-footer.page-footer {
-  margin: 0;
-  background-color: #4C8497;
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/*-----------------------------------------END ICONS*/
+
+/*-----------------------------------------FORM*/
+
+.send {
+	background-color: #4C8497;
+	margin-bottom: 1rem;
+}
+
+/*-----------------------------------------END FORM*/
+
+/*-----------------------------------------CAROUSEL*/
+
+.carousel .carousel-item {
+	width: 400px !important;
+}
+
+.carousel {
+	margin-bottom: 120px;
+}
+
+/*-----------------------------------------END CAROUSEL*/
+
+/*-----------------------------------------FOOTER*/
+
+.fa {
+	width: 15px;
+}
+
+.page-footer {
+	margin: 0;
+	background-color: #4C8497;
 }
 
 .footer-copyright {
-    background-color: #325864;
+	background-color: #325864;
+}
+
+/*-----------------------------------------END FOOTER*/
+
+/*-----------------------------------------MEDIA QUERIES*/
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+
+	#index-banner .section {
+		top: 10%;
+	}
+
+	.carousel .carousel-item {
+		width: 300px !important;
+	}
+
+	.carousel {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	#index-banner .section {
+		top: 0;
+	}
 }

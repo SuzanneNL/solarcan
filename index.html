@@ -4,9 +4,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Solarcan</title>
-        <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- CSS  -->
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
@@ -18,7 +20,8 @@
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#dont-touch">Don't touch</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#dont-touch">Keeping it still</a></li>
                         <li><a href="#how-it-works">How it works</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -27,7 +30,8 @@
         </div>
         <ul id="mobile-demo" class="sidenav">
             <li><a class="sidenav-close" href="#home">Home</a></li>
-            <li><a class="sidenav-close" href="#dont-touch">Don't touch</a></li>
+            <li><a class="sidenav-close" href="#gallery">Gallery</a></li>
+            <li><a class="sidenav-close" href="#dont-touch">Keeping it still</a></li>
             <li><a class="sidenav-close" href="#how-it-works">How it works</a></li>
             <li><a class="sidenav-close" href="#contact">Contact</a></li>
         </ul>
@@ -62,76 +66,82 @@
                     <div class="col s12 m4">
                         <div class="icon-block">
                             <h2 class="center"><i class="material-icons">insert_photo</i></h2>
-                            <h5 class="center">Captures its surroundings</h5>
-                            <p class="light">The Solarcan will capture the surroundings, but only static elements such as bridges, trees and buildings. Sometimes these details can be quite clear, sometimes they are more vague. It also captures the reflection of light in windows or water.</p>
+                            <h5 class="center">Captures (parts of) its surroundings</h5>
+                            <p class="light">The Solarcan will capture the surroundings, but only static elements such as bridges, trees and buildings. Sometimes these details can be quite clear, sometimes they are more vague. It also captures the reflection of light in windows or water. Moving elements will not be captured.</p>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="icon-block">
                             <h2 class="center"><i class="material-icons">sentiment_satisfied_alt</i></h2>
                             <h5 class="center">You will not be in the image</h5>
-                            <p class="light">This is an extremely long exposure. Therefore, movements such as people walking by or even people inspecting the Solarcan up close, will NOT be visible in the photograph. Unless you are able to stand in front of it for weeks and not move one bit!;)</p>
+                            <p class="light">This is an extremely long exposure. Therefore, movements such as people walking by or even people inspecting the Solarcan up close, will NOT be visible in the photograph. Unless you are able to stand in front of it for weeks and not move one bit - which would be quite an achievement!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Image 1  -->
-        <div class="parallax-container valign-wrapper section-scrollspy" id="dont-touch">
+        <!-- Image -->
+        <div class="parallax-container valign-wrapper">
             <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-        <!-- Section 1 - Don't touch -->
-        <div class="container">
+        <!-- Section - Carousel -->
+        <div class="container section-scrollspy" id="gallery">
             <div class="section">
                 <div class="row">
                     <div class="col s12 center">
-                        <h3><i class="mdi-content-send brown-text"></i></h3>
-                        <h4>Please, don't touch the Solarcan</h4>
-                        <p class="left-align light">The Solarcan needs to remain very still. Otherwise, the photograph will turn out blurred. Or the path of the sun will have moved. Even the tiniest nudge could ruin the photograph. This is why Solarcans are usually attached to a static element such as a house, a gate, a tree or a pole. Tie wraps or gaffer tape are great ways to keep the Solarcan in place and prevent it from moving. We ask you kindly NOT to TOUCH the Solarcan, to ensure that it doesn't move. Thank you in advance!</p>
+                        <h4>Gallery</h4>
+                        <p class="light">This gallery shows what a Solarcan looks like. Also it shows what the photographic paper looks like, right after it has been taken out of the can. And it shows two developed images. One of a Solarcan that remained in its position and shows stacked paths of the sun. And one of a Solarcan that was moved during the exposure and shows how the paths have slid to the side.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel">
+                <a class="carousel-item"><img src="01. before.jpg" alt="solarcan"></a>
+                <a class="carousel-item"><img src="01. scan.jpg" alt="scan"></a>
+                <a class="carousel-item"><img src="01. edited.jpg" alt="developed photograph"></a>
+                <a class="carousel-item"><img src="02. scan.jpg" alt="scan"></a>
+                <a class="carousel-item"><img src="02. edited.jpg" alt="developed photograph"></a>
+            </div>
+        </div>
+        <!-- Image  -->
+        <div class="parallax-container valign-wrapper">
+            <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
+        </div>
+        <!-- Section - Don't touch -->
+        <div class="container section-scrollspy" id="dont-touch">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h4>Please don't touch the Solarcan</h4>
+                        <p class="left-align light">The Solarcan needs to remain very still. Otherwise, the photograph will turn out blurred. Or the path of the sun will have moved. You can see this in the image below: instead of the paths of the sun being stacked, they have moved to the side. Even the tiniest nudge could ruin the photograph. This is why Solarcans are usually attached to a static element such as a house, a gate, a tree or a pole. Tie wraps or gaffer tape are great ways to keep the Solarcan in place and prevent it from moving. We ask you kindly NOT to TOUCH the Solarcan, to ensure that it doesn't move. Thank you in advance!</p>
+                        <img src="failed.jpg" alt="failed photograph" id="failed-photograph">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Image 2  -->
-        <div class="parallax-container valign-wrapper section-scrollspy" id="how-it-works">
+        <!-- Image -->
+        <div class="parallax-container valign-wrapper">
             <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-        <!-- Section 2 - Explanation -->
-        <div class="container">
+        <!-- Section - Explanation -->
+        <div class="container section-scrollspy" id="how-it-works">
             <div class="section">
                 <div class="row">
                     <div class="col s12 center">
-                        <h3><i class="mdi-content-send brown-text"></i></h3>
                         <h4>How does it work?</h4>
                         <p class="left-align light">Why does the sun’s path look like that?
 As we observe the Sun in the daytime sky we can see that it rises in the east and sets in the west with it being highest around midday. This isn’t because the Sun is moving, it’s because the Earth is spinning. Once every 24 hours. The reason it rises and sets and doesn’t just travel in a straight line through the sky is because Earth is tilted on its axis. 23.5 degrees to be exact. This tilt also happens to be what causes the seasons we have throughout our Earth year. As we travel in Space around the Sun different parts of Earth are exposed to the Sun’s rays more than others, giving us our Summer and Winter. During the hottest season, summer, the Sun is more direct and higher in the sky. Its highest point is during the summer solstice on the 21st June. The lowest point is the winter solstice on the 21st December.</p>                    </div>
                 </div>
             </div>
         </div>
-        <!-- Image 3  -->
-        <div class="parallax-container valign-wrapper section-scrollspy" id="how-it-works">
+        <!-- Image -->
+        <div class="parallax-container valign-wrapper">
             <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-        <!-- Section 3 - Carousel -->
-        <div class="container">
-            <div class="carousel">
-                <a class="carousel-item"><img src="01. edited.jpg"></a>
-                <a class="carousel-item"><img src="01. scan.jpg"></a>
-                <a class="carousel-item"><img src="01. before.jpg"></a>
-                <a class="carousel-item"><img src="02. scan.jpg"></a>
-                <a class="carousel-item"><img src="02. edited.jpg"></a>
-            </div>
-        </div>
-        <!-- Image 4  -->
-        <div class="parallax-container valign-wrapper section-scrollspy" id="contact">
-            <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
-        </div>
-        <!-- Section 4 - Contact  -->
-        <div class="container">
+        <!-- Section - Contact  -->
+        <div class="container  section-scrollspy" id="contact">
             <div class="section">
                 <div class="row">
                     <div class="col s12 center">
-                        <h3><i class="mdi-content-send brown-text"></i></h3>
                         <h4>Contact Me</h4>
                         <p class="center-align light">If you have any comments or questions about this Solarcan, please fill out the following form:</p>
                         <div class="row">
@@ -173,10 +183,10 @@ As we observe the Sun in the daytime sky we can see that it rises in the east an
                     <div class="col l3 offset-l3 s12">
                         <h5 class="white-text">Connect</h5>
                         <ul>
-                            <li><a class="white-text" href="https://solarcan.co.uk/">Official website</a></li>
-                            <li><a class="white-text" href="https://twitter.com/thesolarcan">Twitter</a></li>
-                            <li><a class="white-text" href="https://www.facebook.com/thesolarcan/">Facebook</a></li>
-                            <li><a class="white-text" href="https://www.instagram.com/thesolarcan/">Instagram</a></li>
+                            <li><a class="white-text" href="https://solarcan.co.uk/"><i class="fa fa-link" aria-hidden="true"></i> Official website</a></li>
+                            <li><a class="white-text" href="https://twitter.com/thesolarcan"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                            <li><a class="white-text" href="https://www.facebook.com/thesolarcan/"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                            <li><a class="white-text" href="https://www.instagram.com/thesolarcan/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
                         </ul>
                     </div>
                 </div>
