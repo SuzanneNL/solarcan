@@ -1,164 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Parallax Template - Materialize</title>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <!-- Navigation  -->
+        <div class="navbar-fixed" id="home">
+            <nav class="white" role="navigation">
+                <div class="nav-wrapper container">
+                    <a id="logo-container" href="#" class="brand-logo">Solarcan</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#dont-touch">Don't touch</a></li>
+                        <li><a href="#how-it-works">How it works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="sidenav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#dont-touch">Don't touch</a></li>
+                        <li><a href="#how-it-works">How it works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        <!-- Banner  -->
+        <div id="index-banner" class="parallax-container section scrollspy">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center grey-text text-lighten-5">Solarcan</h1>
+                    <div class="row center">
+                        <h5 class="header col s12 light">Extreme time exposure experiment capturing the path of the sun</h5>
+                    </div>
+                    <div class="row center">
+                        <a href="#dont-touch" id="download-button" class="btn-large waves-effect waves-light red lighten-1">Please, DON'T TOUCH IT</a>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+            <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
+        <div class="container">
+            <div class="section">
+                <!--   Icon Section   -->
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">brightness_5</i></h2>
+                            <h5 class="center">Captures the path of the sun</h5>
+                            <p class="light">A solarcan captures the path of the sun during several weeks, months or even a full year. A solarcan is an ANALOG pinhole camera: it's a can with a tiny hole (0.5mm), through which light falls on a piece of photographic paper. There is no digital camera inside to capture pictures, videos or audio.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">insert_photo</i></h2>
+                            <h5 class="center">Captures its surroundings</h5>
+                            <p class="light">The solarcan will capture the surroundings, but only static elements such as bridges, trees and buildings. Sometimes these details can be quite clear, sometimes they are more vague. It also captures the reflection of light in windows or water.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">sentiment_satisfied_alt</i></h2>
+                            <h5 class="center">You will not be in the image</h5>
+                            <p class="light">This is an extremely long exposure. Therefore, movements such as people walking by or even people inspecting the solarcan up close, will NOT be visible in the photograph. Unless you are able to stand in front of it for weeks and not move one bit!;)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
+        <!-- Afbeelding met tekst 1  -->
+        <div class="parallax-container valign-wrapper section-scrollspy" id="dont-touch">
+            <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+        <!-- Tekst 1  -->
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+                        <h4>Please, don't touch the Solarcan</h4>
+                        <p class="left-align light">The Solarcan needs to remain very still. Otherwise, the photograph will turn out blurred. Or the path of the sun will have moved. Even the tiniest nudge could ruin the photograph. This is why Solarcans are usually attached to a static element such as a house, a gate, a tree or a pole. Tie wraps or gaffer tape are great ways to keep the Solarcan in place and prevent it from moving. We ask you kindly NOT to TOUCH the Solarcan, to ensure that it doesn't move. Thank you in advance!</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <!-- Afbeelding met tekst 2  -->
+        <div class="parallax-container valign-wrapper section-scrollspy" id="how-it-works">
+            <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <!-- Tekst 2  -->
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+                        <h4>How does it work?</h4>
+                        <p class="left-align light">Why does the sun’s path look like that?
+As we observe the Sun in the daytime sky we can see that it rises in the east and sets in the west with it being highest around midday. This isn’t because the Sun is moving, it’s because the Earth is spinning. Once every 24 hours. The reason it rises and sets and doesn’t just travel in a straight line through the sky is because Earth is tilted on its axis. 23.5 degrees to be exact. This tilt also happens to be what causes the seasons we have throughout our Earth year. As we travel in Space around the Sun different parts of Earth are exposed to the Sun’s rays more than others, giving us our Summer and Winter. During the hottest season, summer, the Sun is more direct and higher in the sky. Its highest point is during the summer solstice on the 21st June. The lowest point is the winter solstice on the 21st December.</p>                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <!-- Afbeelding met tekst 3  -->
+        <div class="parallax-container valign-wrapper section-scrollspy" id="contact">
+            <div class="parallax"><img src="background1.jpg" alt="Solarcan image1"></div>
         </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <!-- Tekst 3  -->
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+                        <h4>Contact Me</h4>
+                        <p class="center-align light">If you have any comments or questions about this Solarcan, please fill out the following form:</p>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12 m6 offset-m3">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="name" type="text" class="validate">
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="input-field col s12 m6 offset-m3">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="e-mail" type="text" class="validate">
+                                        <label for="e-mail">E-mail Address</label>
+                                    </div>
+                                    <div class="input-field col s12 m6 offset-m3">
+                                        <i class="material-icons prefix">create</i>
+                                        <textarea id="message" class="materialize-textarea validate" maxlength="650"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+                                </div>
+                                <div class="center-align">
+                                    <button type="submit" class="btn-large">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
+        <!-- Footer  -->
+        <footer class="page-footer teal">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Solarcan</h5>
+                        <p class="grey-text text-lighten-4">This website was created by a Solarcan enthusiast. The Solarcan was created by Sam Cornwell. You can find more information or purchase your own solarcan on the official website.</p>
+                    </div>
+                    <div class="col l3 offset-l3 s12">
+                        <h5 class="white-text">Connect</h5>
+                        <ul>
+                            <li><a class="white-text" href="https://solarcan.co.uk/">Official website</a></li>
+                            <li><a class="white-text" href="https://twitter.com/thesolarcan">Twitter</a></li>
+                            <li><a class="white-text" href="https://www.facebook.com/thesolarcan/">Facebook</a></li>
+                            <li><a class="white-text" href="https://www.instagram.com/thesolarcan/">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <a class="brown-text text-lighten-3" href="https://github.com/suzannenl/solarcan">© SuzanneNL</a> All rights reserved <br> 
+                </div>
+            </div>
+        </footer>
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+    </body>
 </html>

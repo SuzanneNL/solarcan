@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+html {
+  scroll-behavior: smooth;
+}
 
 nav ul a,
 nav .brand-logo {
