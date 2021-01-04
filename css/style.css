@@ -43,16 +43,16 @@ p {
 }
 
 h2 {
-    color: #4C8497;
+    color: #ba8c51;
 }
 
 .send {
     background-color: #4C8497;
+    margin-bottom: 1rem;
 }
 
-#solarcan {
-    max-height: 150px;
-}
+.carousel .carousel-item {
+width:300px !important;}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
