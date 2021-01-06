@@ -20,6 +20,14 @@ p {
 	text-align: justify;
 }
 
+hr {
+    margin-top: 3rem;
+}
+
+.welcome {
+    color: #325864;
+}
+
 /*-----------------------------------------NAVBAR*/
 
 .section-scrollspy {
