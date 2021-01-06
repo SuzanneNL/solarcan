@@ -4,13 +4,10 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.message.value
     })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
+    sweetalertclick();
     return false;  // To block from loading a new page
+}
+
+function sweetalertclick(){
+    swal("", "Your message has been sent!", "success");
 }

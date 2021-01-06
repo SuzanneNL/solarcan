@@ -169,7 +169,7 @@ As we observe the Sun in the daytime sky we can see that it rises in the east an
                                     </div>
                                     <div class="input-field col s12 m6 offset-m3">
                                         <i class="material-icons prefix">email</i>
-                                        <input type="text" name="emailaddress" class="form-control validate" id="emailaddress" required/>
+                                        <input type="email" name="emailaddress" class="form-control validate" id="emailaddress" minlength="7" maxlength="254" required/>
                                         <label for="emailaddress">E-mail Address</label>
                                     </div>
                                     <div class="input-field col s12 m6 offset-m3">
@@ -219,6 +219,7 @@ As we observe the Sun in the daytime sky we can see that it rises in the east an
             crossorigin="anonymous"
             ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="js/init.js"></script>
         <script src="js/email.js"></script>
     </body>

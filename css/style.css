@@ -84,6 +84,10 @@ nav .brand-logo {
 	margin-bottom: 1rem;
 }
 
+.swal-button {
+    background-color: #4C8497;
+}
+
 /*-----------------------------------------END FORM*/
 
 /*-----------------------------------------CAROUSEL*/
