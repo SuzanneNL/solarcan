@@ -81,16 +81,24 @@ nav .brand-logo {
 
 .send {
 	background-color: #4C8497;
-	margin-bottom: 1rem;
+	margin-bottom: 1.8rem;
 }
 
 .swal-button {
     background-color: #4C8497;
 }
 
+#input-fields {
+    margin-top: 1.8rem;
+}
+
 /*-----------------------------------------END FORM*/
 
 /*-----------------------------------------CAROUSEL*/
+
+#advertise {
+    font-style: italic;
+}
 
 .carousel .carousel-item {
 	width: 400px !important;
@@ -144,4 +152,32 @@ nav .brand-logo {
 	#index-banner .section {
 		top: 0;
 	}
+}
+
+@media only screen and (max-width : 414px) {
+	h4 {
+		font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width : 375px) {
+	h4 {
+		font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+	h4 {
+		font-size: 1.6rem;
+    }
+
+    h5 {
+    font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width : 280px) {
+	h4 {
+		font-size: 1.4rem;
+    }
 }

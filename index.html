@@ -105,16 +105,21 @@
                     <div class="col s12 center">
                         <h4><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</h4>
                         <p class="light">This gallery shows what a Solarcan looks like. Also it shows what the photographic paper looks like, right after it has been taken out of the can. And the gallery contains two developed images. One of a Solarcan that remained in its position; you can see the vertically stacked paths of the sun. And another image, of a Solarcan that was moved during the exposure; you can see how the paths have slid to the side. It still looks interesting, but this wasn't intentional.</p>
-                        <p class="light center-align">Would you like to make your own Solargraph? Buy a Solarcan <a target="_blank" href="https://solarcan.co.uk/">here</a> for only (approx.) €17,50!</p>
                     </div>
                 </div>
-            </div>
-            <div class="carousel">
-                <a class="carousel-item"><img src="assets/images/01. before.jpg" alt="solarcan"></a>
-                <a class="carousel-item"><img src="assets/images/01. scan.jpg" alt="first scan"></a>
-                <a class="carousel-item"><img src="assets/images/01. edited.jpg" alt="first developed photograph"></a>
-                <a class="carousel-item"><img src="assets/images/02. scan.jpg" alt="second scan"></a>
-                <a class="carousel-item"><img src="assets/images/02. edited.jpg" alt="second developed photograph"></a>
+    
+                <div class="carousel">
+                    <a class="carousel-item"><img src="assets/images/01. before.jpg" alt="solarcan"></a>
+                    <a class="carousel-item"><img src="assets/images/01. scan.jpg" alt="first scan"></a>
+                    <a class="carousel-item"><img src="assets/images/01. edited.jpg" alt="first developed photograph"></a>
+                    <a class="carousel-item"><img src="assets/images/02. scan.jpg" alt="second scan"></a>
+                    <a class="carousel-item"><img src="assets/images/02. edited.jpg" alt="second developed photograph"></a>
+                </div>
+                <div class="row">
+                    <div class="col s12 center">
+                        <p class="light center-align" id="advertise">Would you like to make your own Solargraph? Buy a Solarcan <a target="_blank" href="https://solarcan.co.uk/">here</a> for only (approx.) €17,50!</p>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Image  -->
@@ -161,7 +166,7 @@ As we observe the Sun in the daytime sky we can see that it rises in the east an
                         <p class="center-align light">If you have any comments or questions about the Solarcan you found, please fill out the following form:</p>
                         <div class="row">
                             <form class="col s12 card-panel" onsubmit="return sendMail(this);">
-                                <div class="row">
+                                <div class="row" id="input-fields">
                                     <div class="input-field col s12 m6 offset-m3">
                                         <i class="material-icons prefix">account_circle</i>
                                         <input type="text" name="name" class="form-control validate" id="name" required/>
