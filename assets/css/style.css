@@ -36,8 +36,10 @@ hr {
 }
 
 nav ul a,
+.sidenav a,
 nav .brand-logo {
-	color: #444;
+    color: #444;
+    text-transform: uppercase;
 }
 
 .sidenav-trigger {
@@ -92,6 +94,9 @@ nav .brand-logo {
     margin-top: 1.8rem;
 }
 
+.prefix {
+    color: #325864;
+}
 /*-----------------------------------------END FORM*/
 
 /*-----------------------------------------CAROUSEL*/
